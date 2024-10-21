@@ -1,0 +1,11 @@
+:root {
+	root-size: 1.2rem;
+	fg-color: black;
+
+}
+body {
+	font-size: var(root-size);
+	font-family:Arial, sans-serif;
+
+}
+

@@ -1,37 +1,33 @@
 :root {
-	--root-size: 50px;
+	--root-size: 16px;
 	--fg-color: black;
 }
 body {
 	font-size: var(--root-size);
-	font-family:Arial, sans-serif;
+	font-family:"Libre Franklin", sans-serif;
 	color: black;
 }
-@media (min-width: 600px) {
-	:root {
-	--root-size: 46px;
-}
-}
+
 header {
 	background-color: #FFC72C;
-	padding: 4%;
-	padding-left: 14%;
+	padding-top: 8%;
+	padding-bottom: 8%;
+	padding-left: 6%;
 	font-family: "Libre Franklin", sans-serif;
-	display: flex;
-	
 }
 h1 {
-	font-size: 32px;
+	font-size: 19px;
 	font-weight: bold;
 }
 h2 {
-	font-size: 48px;
+	font-size: 40px;
 	font-weight: bolder;
 }
-#author {
+.author {
+
 	font-size: 18px;
+	margin-top: 10%;
 	padding-left: 2%;
-	margin-left: 10%;
 	border-color: black;
 	border-left: 2px solid
 	

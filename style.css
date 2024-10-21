@@ -1,5 +1,5 @@
 :root {
-	--root-size: 16px;
+	--root-size: 15px;
 	--fg-color: black;
 }
 body {
@@ -10,6 +10,7 @@ body {
 p {
 	line-height: 170%;
 	margin-top: 5%;
+	max-width: 33ch;
 }
 
 sup {
@@ -52,4 +53,8 @@ h3 {
 section {
 	margin-top: 5%;
 	margin-left: 4%;
+}
+article {
+	margin-bottom: 30%;
+	margin: 2%;
 }

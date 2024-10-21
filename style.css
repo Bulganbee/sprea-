@@ -1,8 +1,13 @@
 :root {
-	root-size: 1.2rem;
-	fg-color: black;
+	--root-size: 50px;
+	--fg-color: black;
 }
 body {
-	font-size: var(root-size);
+	font-size: var(--root-size);
 	font-family:Arial, sans-serif;
+}
+@media (min-width: 600px) {
+	:root {
+	--root-size: 46px;
+}
 }

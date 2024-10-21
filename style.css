@@ -7,9 +7,12 @@ body {
 	font-family: "Libre Baskerville", serif;
 	color: black;
 }
-p not(:first-child){
+p {
 	line-height: 170%;
-	margin-bottom: 5%;
+	margin-top: 5%;
+}
+sup {
+	color: #FFC72C;
 }
 
 header {

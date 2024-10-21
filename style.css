@@ -11,6 +11,7 @@ p {
 	line-height: 170%;
 	margin-top: 5%;
 }
+
 sup {
 	color: #FFC72C;
 }
@@ -42,7 +43,7 @@ h2 {
 h3 {
 	font-family: "Libre Franklin", sans-serif;
 	font-weight: bold;
-	font-size: 24px;
+	font-size: 26px;
 	margin-bottom: 2%;
 }
 section {

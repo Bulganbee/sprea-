@@ -23,11 +23,23 @@ header {
 	padding-left: 6%;
 	font-family: "Libre Franklin", sans-serif;
 	position: relative;
+	z-index: 1;
+	
 }
 .navigation {
 	background-color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-family: "Libre Franklin", sans-serif;
+	font-weight: bold;
+	font-size: 17px;
+	padding: 5%;
+	padding-right: 20%;
 	position: absolute;
-	bottom: 0;
+	z-index: 0;
+	position: fixed;
+	
 }
 #redtext {
 	color: #C1261A;

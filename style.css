@@ -1,6 +1,5 @@
 :root {
 	--root-size: 15px;
-	--fg-color: black;
 }
 body {
 	font-size: var(--root-size);
@@ -23,6 +22,12 @@ header {
 	padding-bottom: 8%;
 	padding-left: 6%;
 	font-family: "Libre Franklin", sans-serif;
+	position: relative;
+}
+.navigation {
+	background-color: white;
+	position: absolute;
+	bottom: 0;
 }
 #redtext {
 	color: #C1261A;

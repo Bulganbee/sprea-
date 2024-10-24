@@ -48,7 +48,7 @@ li:not(:first-child) {
 	padding-left: 2%;
 }
 li:nth-child(5) {
-	padding-right: 6%;
+	padding-right: 10%;
 }
 #arrow {
 	color: #C1261A;

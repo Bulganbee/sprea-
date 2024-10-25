@@ -84,7 +84,7 @@ section {
 	margin-bottom: 10%;
 }
 article {
-	padding-bottom: 50%;
+	padding-bottom: 30%;
 	margin: 2%;
 }
 
@@ -109,6 +109,7 @@ footer {
 	text-align: center;
 	font-size: 15px;
 	padding: 7%;
+	padding-bottom: 15%;
 	font-family: "Libre Franklin", sans-serif;
 	font-weight: 600;
 }
@@ -123,5 +124,9 @@ footer {
 	border-right-style: solid;
 	
 
+}
+#originalarticle {
+	color: #C1261A;
+	margin: 2%;
 }
 

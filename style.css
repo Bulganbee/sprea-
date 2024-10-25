@@ -1,9 +1,9 @@
  /* variables */
 :root {
-	--root-size: 16px;
+	--root-size: 15px;
 	--article-margin: 15px;
-	--padding-top: 30px;
-	--padding-bottom: 30px;
+	--padding-top: 20px;
+	--padding-bottom: 20px;
 	--padding-left: 5.25px;
 }
 

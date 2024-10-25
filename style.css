@@ -1,27 +1,21 @@
  /* variables */
 :root {
 	--root-size: 16px;
-	--root-margin: 4%;
+	--article-margin: 15px;
 	 /* Header */
-	--header-padding-top: 8%;
-	--header-padding-left: 3%;
-	--h3-margin-bottom: 2%;
-	--div-author-margin-top: 10%;
-	--div-author-padding-left: 2%;
+	--header-padding-left: 15px;
+	--div-author-padding-left: 10px;
 	/* article section */
 	--p-line-height: 170%;
-	--p-margin-top: 8%;
-	--section-margin-top: 5%;
-	--section-margin-bottom: 10%;
 	--bigtext-font-size: 20px;
 	--bigtextitalic-font-size: 18px;
-	--bigtextitalic-padding: 1%; 
+	--bigtextitalic-padding: 5px; 
 	/* citation */
 	--citation-font-size: 15px;
-	--citation-padding-right: 4%;
-	--citation-margin-right: 2%;
+	--citation-padding-right: 10px;
+	--citation-margin-right: 5px;
 	/* navigation */
-	--flex-container-padding: 4%;
+	--flex-container-padding: 20px;
 	--flex-container-padding-left: 0px;
 	--flex-container-padding-right: 0px;
 

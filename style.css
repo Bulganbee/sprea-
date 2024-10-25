@@ -25,12 +25,19 @@ header {
 	z-index: 1;
 	
 }
-ul {
+.flex-container {
 	color: rgb(0, 0, 0);
+	background-color: #FFC72C;
 	font-family: "Libre Franklin", sans-serif;
 	font-weight:600;
 	font-size: 16px;
 	display: flex;
+	left: 0%;
+	right: 0%;
+	justify-content: space-evenly;
+	padding: 4%;
+	padding-left: 0%;
+	padding-right: 0%;
 	flex-direction: row;
 	position: absolute;
 	z-index: 0;
@@ -48,6 +55,9 @@ li:not(:first-child) {
 }
 li:nth-child(6) {
 	padding-right: 15%;
+}
+.navigation {
+	background-color: #FFC72C;
 }
 #arrow {
 	color: #C1261A;

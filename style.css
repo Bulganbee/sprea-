@@ -1,5 +1,5 @@
 :root {
-	--root-size: 15px;
+	--root-size: 16px;
 }
 body {
 	font-size: var(--root-size);
@@ -48,7 +48,7 @@ li:not(:first-child) {
 	padding-left: 2%;
 }
 li:nth-child(5) {
-	padding-right: 10%;
+	padding-right: 15%;
 }
 #arrow {
 	color: #C1261A;
@@ -84,6 +84,22 @@ section {
 	margin-left: 4%;
 }
 article {
-	margin-bottom: 30%;
+	padding-bottom: 50%;
 	margin: 2%;
+}
+
+.bigtext {
+	font-size: 21px;
+	font-family: "Public Sans", sans-serif;
+	font-weight:500;
+}
+.bigtextitalic {
+	padding: 2%;
+	font-size: 18px;
+	font-family: "Public Sans", sans-serif;
+	font-weight:500;
+	font-style: italic;
+}
+mark {
+	background-color: #FFC72C;
 }

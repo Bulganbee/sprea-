@@ -26,9 +26,32 @@
 @media (min-width:1100px) {
 	:root {
 		--root-size: 18px; }
-	Article {
+	header {
+		padding-left: 10%;
+		display: flex;
+		justify-content: space-evenly;
 		
+		
+	}
+	.mainheader {
+		margin-left: -8%;
+		background-color: #FFC72C;
+	}
+	.title {
+		max-width: 45%;
+	}
+	.normal {
+		max-width: 55%;
+		margin-left: 9%;
 	} 
+	.bigtext {
+		max-width: 55%;
+		margin-left: 9%;
+	}
+	.bigtextitalic {
+		max-width: 55%;
+		margin-left: 9%;
+	}
 	.citationbox {
 		display: flex;
 		max-width: 100%;
@@ -38,6 +61,12 @@
 	}
 	.citationparagraph {
 		max-width: 55%;
+	}
+	.citation {
+		max-width: 30ch;
+	}
+	h3 {
+		margin-left: 9%;
 	}
 
 }

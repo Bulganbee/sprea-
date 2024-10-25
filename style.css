@@ -82,6 +82,7 @@ h3 {
 section {
 	margin-top: 5%;
 	margin-left: 4%;
+	margin-bottom: 10%;
 }
 article {
 	padding-bottom: 50%;
@@ -89,7 +90,7 @@ article {
 }
 
 .bigtext {
-	font-size: 21px;
+	font-size: 20px;
 	font-family: "Public Sans", sans-serif;
 	font-weight:500;
 }
@@ -102,4 +103,11 @@ article {
 }
 mark {
 	background-color: #FFC72C;
+}
+footer {
+	background-color: #FFC72C;
+	text-align: center;
+	padding: 7%;
+	font-family: "Libre Franklin", sans-serif;
+	font-weight: 600;
 }

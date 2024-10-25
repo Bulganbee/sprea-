@@ -1,21 +1,8 @@
 :root {
 	--root-size: 16px;
 }
-body {
-	font-size: var(--root-size);
-	font-family: "Libre Baskerville", serif;
-	color: black;
-}
-p {
-	line-height: 170%;
-	margin-top: 8%;
-}
-
-sup {
-	color: #FFC72C;
-}
-
-header {
+ /* Header section */
+ header {
 	background-color: #FFC72C;
 	padding-top: 8%;
 	padding-bottom: 8%;
@@ -23,8 +10,81 @@ header {
 	font-family: "Libre Franklin", sans-serif;
 	position: relative;
 	z-index: 1;
-	
 }
+h1 {
+	font-size: 18px;
+	font-weight: bold;
+}
+h2 {
+	font-size: 38px;
+	font-weight: bolder;
+}
+#redtext {
+	color: #C1261A;
+}
+.author {
+	font-size: 18px;
+	margin-top: 10%;
+	padding-left: 2%;
+	border-color: black;
+	border-left: 2px solid
+}
+/* Main body section styling */
+body {
+	font-size: var(--root-size);
+	font-family: "Libre Baskerville", serif;
+	color: black;
+}
+article {
+	padding-bottom: 30%;
+	margin: 4%;
+}
+p {
+	line-height: 170%;
+	margin-top: 8%;
+}
+h3 {
+	font-family: "Libre Franklin", sans-serif;
+	font-weight: bold;
+	font-size: 26px;
+	margin-bottom: 2%;
+}
+section {
+	margin-top: 5%;
+	margin-bottom: 10%;
+}
+.bigtext {
+	font-size: 20px;
+	font-family: "Public Sans", sans-serif;
+	font-weight:500;
+	line-height: 150%;
+}
+.bigtextitalic {
+	padding: 1%;
+	font-size: 18px;
+	font-family: "Public Sans", sans-serif;
+	font-weight:500;
+	font-style: italic;
+}
+sup {
+	color: #FFC72C;
+}
+.citation {
+	font-size: 15px;
+	font-family: "Public Sans", sans-serif;
+	font-style: italic;
+	padding-right: 4%;
+	margin-right: 2%;
+	border-right: #FFC72C;
+	border-width: 2px;
+	border-right-style: solid;
+}
+mark {
+	background-color: #FFC72C;
+}
+
+ /* Navigation bar's styling */
+
 .flex-container {
 	color: rgb(0, 0, 0);
 	background-color: #FFC72C;
@@ -44,75 +104,14 @@ header {
 	position: fixed;
 	
 }
-
-li {
-	background-color: #FFC72C;
-	padding: 5%;
-}
-
-li:not(:first-child) {
-	padding-left: 3%;
-}
-li:nth-child(6) {
-	padding-right: 15%;
-}
-.navigation {
-	background-color: #FFC72C;
-}
 #arrow {
 	color: #C1261A;
 }
-#redtext {
+
+ /* Link to original article and footer section */
+#originalarticle {
 	color: #C1261A;
-}
-h1 {
-	font-size: 18px;
-	font-weight: bold;
-}
-h2 {
-	font-size: 38px;
-	font-weight: bolder;
-}
-.author {
-
-	font-size: 18px;
-	margin-top: 10%;
-	padding-left: 2%;
-	border-color: black;
-	border-left: 2px solid
-	
-}
-h3 {
-	font-family: "Libre Franklin", sans-serif;
-	font-weight: bold;
-	font-size: 26px;
-	margin-bottom: 2%;
-}
-section {
-	margin-top: 5%;
-	margin-left: 2%;
-	margin-bottom: 10%;
-}
-article {
-	padding-bottom: 30%;
 	margin: 2%;
-}
-
-.bigtext {
-	font-size: 20px;
-	font-family: "Public Sans", sans-serif;
-	font-weight:500;
-	line-height: 150%;
-}
-.bigtextitalic {
-	padding: 1%;
-	font-size: 18px;
-	font-family: "Public Sans", sans-serif;
-	font-weight:500;
-	font-style: italic;
-}
-mark {
-	background-color: #FFC72C;
 }
 footer {
 	background-color: #FFC72C;
@@ -122,21 +121,5 @@ footer {
 	padding-bottom: 15%;
 	font-family: "Libre Franklin", sans-serif;
 	font-weight: 600;
-}
-.citation {
-	font-size: 15px;
-	font-family: "Public Sans", sans-serif;
-	font-style: italic;
-	padding-right: 4%;
-	margin-right: 2%;
-	border-right: #FFC72C;
-	border-width: 2px;
-	border-right-style: solid;
-	
-
-}
-#originalarticle {
-	color: #C1261A;
-	margin: 2%;
 }
 

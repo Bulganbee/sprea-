@@ -16,6 +16,14 @@
 	--bigtext-font-size: 20px;
 	--bigtextitalic-font-size: 18px;
 	--bigtextitalic-padding: 1%; 
+	/* citation */
+	--citation-font-size: 15px;
+	--citation-padding-right: 4%;
+	--citation-margin-right: 2%;
+	/* navigation */
+	--flex-container-padding: 4%;
+	--flex-container-padding-left: 0px;
+	--flex-container-padding-right: 0px;
 
 }
 

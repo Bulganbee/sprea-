@@ -4,6 +4,8 @@
 	--article-margin: 15px;
 	 /* Header */
 	--header-padding-left: 15px;
+	--header-padding-top: 30px;
+	--header-padding-bottom: 30px;
 	--div-author-padding-left: 10px;
 	/* article section */
 	--p-line-height: 170%;
@@ -23,8 +25,19 @@
 
 @media (min-width:1100px) {
 	:root {
-		--root-size: 18px;
+		--root-size: 18px; }
+	Article {
 		
+	} 
+	.citationbox {
+		display: flex;
+		max-width: 100%;
+		align-items: start;
+		justify-content: space-evenly;
+
+	}
+	.citationparagraph {
+		max-width: 55%;
 	}
 
 }

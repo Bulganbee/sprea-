@@ -9,7 +9,6 @@ body {
 p {
 	line-height: 170%;
 	margin-top: 5%;
-	max-width: 33ch;
 }
 
 sup {
@@ -107,7 +106,21 @@ mark {
 footer {
 	background-color: #FFC72C;
 	text-align: center;
+	font-size: 15px;
 	padding: 7%;
 	font-family: "Libre Franklin", sans-serif;
 	font-weight: 600;
 }
+.citation {
+	font-size: 14px;
+	font-family: "Public Sans", sans-serif;
+	font-style: italic;
+	padding-right: 4%;
+	margin-right: 2%;
+	border-right: #FFC72C;
+	border-width: 2px;
+	border-right-style: solid;
+	
+
+}
+

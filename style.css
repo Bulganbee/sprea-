@@ -1,6 +1,14 @@
 :root {
 	--root-size: 16px;
 }
+
+@media (min-width:1100px) {
+	:root {
+		--root-size: 18px;
+		
+	}
+
+}
  /* Header section */
  header {
 	background-color: #FFC72C;
@@ -16,7 +24,7 @@ h1 {
 	font-weight: bold;
 }
 h2 {
-	font-size: 38px;
+	font-size: calc(var(--root-size) * 2.5);
 	font-weight: bolder;
 }
 #redtext {

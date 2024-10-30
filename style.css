@@ -26,8 +26,6 @@
 	--margin-left-links: 10px;
 	--margin-top-author: 35px;
 	--section-margin-bottom: 70px;
-
-	
 }
 
 @media print {
@@ -134,8 +132,7 @@ footer {
 		max-width: 40%;
 	}
 	#originalarticle {
-		text-align: center;
-		display: block;
+		margin-left: 155px;
 	}
 	a {
 		margin-right: 20px;
@@ -151,8 +148,9 @@ footer {
 	padding-left: calc(var(--padding-left) * 2);
 	font-family: "Libre Franklin", sans-serif;
 	position: relative;
-	z-index: 1;
+	z-index: 2;
 }
+
 h1 {
 	color: #282620;
 	font-size: calc(var(--root-size-h1) * 1.8);
@@ -224,6 +222,7 @@ sup {
 	color: #FFC72C;
 	line-height: 0%;
 }
+
 .citation {
 	font-size: 14px;
 	font-family: "Public Sans", sans-serif;
@@ -257,7 +256,7 @@ button:active {
 	padding-left: var(--flex-container-padding-left);
 	flex-direction: row;
 	position: absolute;
-	z-index: 0;
+	z-index: 1;
 	position: fixed;
 	
 }
@@ -277,7 +276,10 @@ a {
 
 #originalarticle {
 	color: #C1261A;
+	text-align:left;
+	font-size: calc(var(--root-size) * 1.2);
 }
+
 footer {
 	background-color:var(--footer-background-color);
 	padding-top: calc(var(--padding-top-footer) * 3);

@@ -255,9 +255,9 @@ button:active {
 	padding:20px;
 	padding-left: var(--flex-container-padding-left);
 	flex-direction: row;
-	position: absolute;
-	z-index: 1;
-	position: fixed;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
 	
 }
 .links {

@@ -26,13 +26,14 @@
 	--margin-left-links: 10px;
 	--margin-top-author: 35px;
 	--section-margin-bottom: 70px;
+	--margin-top-section: 20px;
 }
 
 @media print {
 	:root {
 		--root-size: 17px;
 		--root-h2-size: 20px;
-		--padding-bottom: 10px;
+		--padding-bottom: 0px;
 		--padding-top-footer: 4px;
 		--padding-bottom: 4px;
 		--root-size-h3: 21px;
@@ -45,6 +46,7 @@
 		--footer-font-size: 15px;
 		--article-padding-bottom: 2px;
 		--section-margin-bottom: 50px;
+		--margin-top-section: 0px;
 	}
 	body {
   padding: 6px;
@@ -56,6 +58,9 @@
 }
 #originalarticle {
 	display: none;
+}
+article {
+	padding-top: 0%;
 }
 
 .author {
@@ -195,7 +200,7 @@ h3 {
 	margin-bottom: 3px;
 }
 section {
-	margin-top: 20px;
+	margin-top: var(--margin-top-section);
 	margin-bottom: var(--section-margin-bottom);
 }
 .bigtext {

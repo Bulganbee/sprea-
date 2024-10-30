@@ -1,13 +1,73 @@
  /* variables */
 :root {
 	--root-size: 16px;
+	--header-background-color:#FFC72C; 
+	--footer-background-color: #0b0b0a;
+	--footer-color: #f7f7f5;
+	--article-padding-bottom: 30px;
+	--footer-padding: 20px;
+	--root-size-h1: 16px;
+	--root-size-h3: 16px;
 	--root-h2-size: 16px;
+	--footer-font-size: 16px;
+	--flex-container-padding-left: 1px;
+	--flex-container-padding-right: 1px;
 	--article-margin: 15px;
 	--padding-top: 26px;
+	--padding-links-right: 0px;
 	--padding-top-footer: 20px;
 	--padding-bottom: 20px;
+	--padding-bottom-header: 20px;
 	--padding-left: 5.25px;
 	--line-height: 140%; 
+	--margin-right-link: 10px;
+	--margin-top-author: 35px;
+
+	
+}
+
+@media print {
+	:root {
+		--root-size: 17px;
+		--root-h2-size: 20px;
+		--padding-bottom: 10px;
+		--footer-padding: 0px;
+		--padding-top-footer: 0px;
+		--root-size-h3: 21px;
+		--root-size-h1: 20px;
+		--header-background-color:none; 
+		--footer-background-color: none;
+		--margin-top-author: 15px;
+		--footer-font-size: 10px;
+		--footer-color:var(--footer-background-color)
+	}
+	body {
+  padding: 6px;
+  max-width: 70ch;
+}
+
+.bigtextitalic {
+	max-width: 55ch;
+}
+#originalarticle {
+	visibility: hidden;
+}
+
+.author {
+	margin-top: 0px;
+}
+
+.citation {
+	padding-left: 150px;
+	padding-right: 5px;
+}
+.flex-container {
+	visibility: hidden;
+}
+.footerheader {
+	font-size: ;
+}
+
 }
 
 @media (min-width:1100px) {
@@ -15,8 +75,13 @@
 		--root-size: 17px;
 		--padding-bottom: 40px;
 		--root-h2-size: 22px;
+		--margin-right-link: 40px;
+		--root-size-h3: 18px;
 		--padding-left: 55px;
-		--line-height: 135%;  }
+		--padding-links-right: 595px;
+		--line-height: 135%; 
+		--flex-container-padding-left: 50px;
+	 }
 	header {
 		display: grid;
 		grid-template-columns: 2fr 1fr;
@@ -54,7 +119,7 @@
 		margin-left: 15.5%;
 	}
 	.citation {
-		max-width: 40ch;
+		max-width: 42ch;
 	}
 	h3 {
 		margin-left: 10.5%;
@@ -67,11 +132,14 @@
 	.footerheader {
 		padding-left: 10.5%;
 	}
-
+	a {
+		margin-right: 20px;
+	}
 }
+
  /* Header section */
  header {
-	background-color: #FFC72C;
+	background-color: var(--header-background-color);
 	color: #130e07;
 	padding-top: calc(var(--padding-top) * 2.2);
 	padding-bottom: calc(var(--padding-bottom) * 2.2);
@@ -82,7 +150,7 @@
 }
 h1 {
 	color: #282620;
-	font-size: calc(var(--root-size) * 1.8);
+	font-size: calc(var(--root-size-h1) * 1.8);
 	font-weight: bold;
 	line-height: 145%;
 	margin-bottom: 1%;
@@ -97,7 +165,7 @@ h2 {
 }
 .author {
 	font-size: 20px;
-	margin-top: 72px;
+	margin-top: calc(var(--margin-top-author) * 2);
 	padding-left: 20px;
 	border-color: black;
 	border-left: 2px solid
@@ -110,7 +178,7 @@ body {
 }
 article {
 	padding-top: 2%;
-	padding-bottom: 30px;
+	padding-bottom: var(--article-padding-bottom);
 	margin: 15px;
 }
 p {
@@ -120,7 +188,7 @@ p {
 h3 {
 	font-family: "Libre Franklin", sans-serif;
 	font-weight: bold;
-	font-size: calc(var(--root-size) * 1.9);
+	font-size: calc(var(--root-size-h3) * 2);
 	margin-bottom: 3px;
 }
 section {
@@ -154,8 +222,8 @@ sup {
 	font-size: 14px;
 	font-family: "Public Sans", sans-serif;
 	font-style: italic;
-	padding-right: 10px;
-	margin-right: 5px;
+	padding-right: 5px;
+	margin-right: 10px;
 	border-right: #FFC72C;
 	border-width: 2px;
 	border-right-style: solid;
@@ -180,16 +248,25 @@ button:active {
 	right: 0%;
 	justify-content: space-evenly;
 	padding:20px;
-	padding-left: 0px;
-	padding-right: 0px;
+	padding-left: var(--flex-container-padding-left);
+	padding-right: var(--flex-container-padding-right);
 	flex-direction: row;
 	position: absolute;
 	z-index: 0;
 	position: fixed;
 	
 }
+.links {
+	padding-right: var(--padding-links-right);
+
+}
+a {
+	margin-right: var(--margin-right-link);
 #arrow {
 	color: #FFC72C;
+}
+mark {
+	animation-direction: normal;
 }
 
 
@@ -199,18 +276,18 @@ button:active {
 	
 }
 footer {
-	background-color: #0b0b0a;
-	padding: 20px;
+	background-color: var(--footer-background-color);
+	padding: var(--footer-padding);
 	padding-top: calc(var(--padding-top-footer) * 3);
 	padding-bottom: calc(var(--padding-bottom) * 3);
 	font-family: "Libre Franklin", sans-serif ;
 }
 .footerheader {
-	color: #f7f7f5;
+	color: var(--footer-color);
 }
 #yellowtext {
 	color: #FFC72C;
 }
 .footerheader {
-	font-size: calc(var(--root-size) * 1.7);
+	font-size: calc(var(--footer-font-size) * 1.7);
 }

@@ -23,7 +23,7 @@
 	--padding-left: 5.25px;
 	--line-height: 140%; 
 	--margin-right-link: 10px;
-	--margin-left-links: 10px;
+	--margin-left-links: 4px;
 	--margin-top-author: 35px;
 	--section-margin-bottom: 70px;
 	--margin-top-section: 20px;
@@ -92,6 +92,7 @@ footer {
 		--padding-links-right: 248px;
 		--line-height: 135%; 
 		--footer-font-size: 30px;
+		--margin-right-link: 20px;
 	 }
 	header {
 		display: grid;
@@ -270,9 +271,9 @@ button:active {
 	margin-left: var(--margin-left-links);
 
 }
-a {
-	margin-right: calc(var(--margin-right-link) * 1);
-	margin-left: var(margin);
+a :not(:nth-child(6)){
+	margin-right: var(--margin-right-link);
+	margin-left: var(--margin-left-links);
 }
 #arrow {
 	color: #FFC72C;

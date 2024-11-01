@@ -249,9 +249,9 @@ button:active {
 
 .flex-container {
 	color: rgb(245, 243, 243);
-	background-color: #C1261A;
+	background-color: #6f100a;
 	font-family: "Libre Franklin", sans-serif;
-	font-weight:600;
+	font-weight:500;
 	font-size: 16px;
 	display: flex;
 	left: 0%;
